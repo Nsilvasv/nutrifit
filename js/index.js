@@ -14,8 +14,15 @@ for (var loop = 0; loop < pacientes.length; loop++) {
     var imc = peso / (altura*altura);
     tdImc.textContent = imc.toFixed(2);
 
-    
+    if (peso < 1 || peso > 200) {
+        tdPeso.classList.add("campo-invalido");
+        tdPeso.textContent = 'peso invalido';
+    }
 
+    if (altura < 1 || altura > 2.50) {
+        tdAltura.classList.add('campo-invalido');
+        tdAltura.textContent = 'altura invalido';
+    }
 
 
 }
