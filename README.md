@@ -1,2 +1,2 @@
 # nutrifit
-Projeto pessoal que está sendo desenvolvido com base no curso de Javascript
+Projeto pessoal que estou desenvolvendo com base no curso de Javascript.
